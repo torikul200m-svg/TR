@@ -1,0 +1,168 @@
+<resources>
+    <string name="app_name">TR Dial sip</string>
+    <string name="app_tagline">اتصالات VoIP و SIP فائقة الدقة</string>
+    <string name="developer_credit">تطوير: TARIQUL SHEIKH</string>
+
+    <!-- Navigation & Common -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_dial_pad">لوحة الاتصال</string>
+    <string name="nav_contacts">جهات الاتصال</string>
+    <string name="nav_favorites">المفضلة</string>
+    <string name="nav_history">السجل</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="action_back">رجوع</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_edit">تعديل</string>
+    <string name="action_call">اتصال</string>
+    <string name="action_close">إغلاق</string>
+    <string name="action_skip">تخطي</string>
+    <string name="action_next">التالي</string>
+    <string name="action_get_started">ابدأ الآن</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">نواة VoIP و SIP موحدة</string>
+    <string name="onboarding_desc_1">تنقل بسلاسة بين مكالمات الإنترنت من تطبيق لتطبيق وخطوط SIP المؤسسية من لوحة اتصال واحدة.</string>
+    <string name="onboarding_title_2">بنية اتصال معيارية</string>
+    <string name="onboarding_desc_2">واجهات برمجية نظيفة جاهزة لمكتبات PJSIP C/C++ وإشارات WebRTC دون محاكاة وهمية للمكالمات.</string>
+    <string name="onboarding_title_3">تشفير ودعم متعدد اللغات</string>
+    <string name="onboarding_desc_3">تجزئة آمنة لكلمات المرور وتشفير أسرار SIP عبر Keystore مع دعم كامل للعربية RTL.</string>
+
+    <!-- Auth: Login & Registration -->
+    <string name="login_title">مرحباً بعودتك</string>
+    <string name="login_subtitle">سجّل الدخول لإدارة حسابات SIP ولوحة الاتصال</string>
+    <string name="register_title">إنشاء حساب</string>
+    <string name="register_subtitle">إعداد ملفك المحلي المشفر في TR Dial sip</string>
+    <string name="field_full_name">الاسم الكامل</string>
+    <string name="field_email">البريد الإلكتروني</string>
+    <string name="field_extension">الهاتف / التحويلة</string>
+    <string name="field_password">كلمة المرور</string>
+    <string name="field_confirm_password">تأكيد كلمة المرور</string>
+    <string name="btn_sign_in">تسجيل الدخول</string>
+    <string name="btn_create_account">إنشاء الحساب</string>
+    <string name="link_no_account">مستخدم جديد؟ أنشئ حساباً</string>
+    <string name="link_have_account">لديك حساب بالفعل؟ سجل الدخول</string>
+    <string name="error_invalid_email">أدخل بريداً إلكترونياً صالحاً.</string>
+    <string name="error_short_password">يجب أن تتكون كلمة المرور من 6 أحرف على الأقل.</string>
+    <string name="error_password_mismatch">كلمتا المرور غير متطابقتين.</string>
+    <string name="error_required_field">هذا الحقل مطلوب.</string>
+    <string name="error_invalid_credentials">البريد الإلكتروني أو كلمة المرور غير صحيحة.</string>
+    <string name="error_email_exists">يوجد حساب مسجل بهذا البريد الإلكتروني بالفعل.</string>
+
+    <!-- Home Dashboard -->
+    <string name="dashboard_greeting">مركز التحكم</string>
+    <string name="status_network_online">الشبكة متصلة</string>
+    <string name="status_network_offline">الشبكة غير متصلة</string>
+    <string name="status_sip_not_configured">محرك SIP: غير مهيأ</string>
+    <string name="status_sip_ready_accounts">%1$d حساب محفوظ • المحرك في وضع الاستعداد</string>
+    <string name="section_quick_dial">اتصال سريع</string>
+    <string name="section_recent_calls">المكالمات الأخيرة</string>
+    <string name="section_quick_actions">مساحة العمل</string>
+    <string name="card_sip_accounts">حسابات SIP</string>
+    <string name="card_profile">الملف الشخصي</string>
+    <string name="empty_recent_calls">لا توجد مكالمات مسجلة بعد. افتح لوحة الاتصال لاختبار التوجيه.</string>
+    <string name="view_all">عرض الكل</string>
+
+    <!-- Dial Pad -->
+    <string name="dial_pad_title">لوحة الاتصال</string>
+    <string name="mode_app_to_app">تطبيق لتطبيق</string>
+    <string name="mode_sip_to_sip">SIP إلى SIP</string>
+    <string name="dial_hint_sip">أدخل الرقم أو عنوان SIP URI</string>
+    <string name="dial_hint_app">أدخل معرف النظير Peer ID</string>
+    <string name="select_sip_account">حساب SIP النشط</string>
+    <string name="no_sip_account">لا يوجد حساب SIP مهيأ</string>
+    <string name="configure_sip_now">تهيئة SIP</string>
+    <string name="calling_not_configured_title">خدمة الاتصال غير مهيأة</string>
+    <string name="calling_not_configured_sip">محرك SIP إلى SIP في وضع الاستعداد المعياري. مكتبات PJSIP C/C++ غير مدمجة في هذه البيئة، ولم يتم إجراء أي مكالمة.</string>
+    <string name="calling_not_configured_app">خادم الإشارات ونقل الوسائط WebRTC لمكالمات التطبيق غير مهيأ بعد.</string>
+    <string name="mic_permission_required">إذن الميكروفون مطلوب لإجراء المكالمات الصوتية.</string>
+    <string name="btn_grant_permission">منح الإذن</string>
+    <string name="btn_preview_active_call">معاينة شاشة المكالمة النشطة</string>
+    <string name="btn_preview_incoming_call">معاينة شاشة المكالمة الواردة</string>
+
+    <!-- Contacts & Favorites -->
+    <string name="contacts_title">جهات الاتصال</string>
+    <string name="favorites_title">المفضلة</string>
+    <string name="search_contacts_hint">ابحث بالاسم أو الرقم أو SIP URI…</string>
+    <string name="add_contact">إضافة جهة اتصال</string>
+    <string name="edit_contact">تعديل جهة الاتصال</string>
+    <string name="field_contact_name">الاسم</string>
+    <string name="field_phone_number">رقم الهاتف</string>
+    <string name="field_sip_uri">عنوان SIP URI</string>
+    <string name="field_app_peer_id">معرف النظير Peer ID</string>
+    <string name="empty_contacts">لا توجد جهات اتصال. اضغط + للإضافة.</string>
+    <string name="empty_favorites">لا توجد جهات مفضلة بعد. اضغط على النجمة للإضافة.</string>
+
+    <!-- Call History -->
+    <string name="history_title">سجل المكالمات</string>
+    <string name="filter_all">الكل</string>
+    <string name="filter_missed">فائتة</string>
+    <string name="filter_sip">SIP</string>
+    <string name="filter_app">التطبيق</string>
+    <string name="clear_history">مسح السجل</string>
+    <string name="empty_history">سجل المكالمات فارغ.</string>
+
+    <!-- Incoming & Active Call Screens -->
+    <string name="incoming_call_label">مكالمة واردة</string>
+    <string name="btn_answer">رد</string>
+    <string name="btn_reject">رفض</string>
+    <string name="call_preview_banner">معاينة واجهة فقط — محرك الاتصال غير مهيأ (بدون صوت فعلي)</string>
+    <string name="call_state_standby">وضع الاستعداد (معاينة)</string>
+    <string name="call_state_on_hold">قيد الانتظار (معاينة)</string>
+    <string name="btn_mute">كتم</string>
+    <string name="btn_speaker">مكبر الصوت</string>
+    <string name="btn_hold">انتظار</string>
+    <string name="btn_keypad">الأرقام</string>
+    <string name="btn_end_call">إنهاء</string>
+    <string name="dtmf_last_tone">آخر نغمة DTMF: %1$s</string>
+
+    <!-- SIP Account Manager & Configuration -->
+    <string name="sip_manager_title">إدارة حسابات SIP</string>
+    <string name="sip_config_title">إعدادات حساب SIP</string>
+    <string name="add_sip_account">إضافة حساب SIP</string>
+    <string name="empty_sip_accounts">لا توجد حسابات SIP مضافة. أضف مزوداً لإدارة بياناته بأمان.</string>
+    <string name="field_display_name">الاسم الظاهر</string>
+    <string name="field_sip_username">اسم مستخدم SIP / التحويلة</string>
+    <string name="field_sip_domain">النطاق / الخادم (Registrar)</string>
+    <string name="field_sip_port">المنفذ (Port)</string>
+    <string name="field_transport">بروتوكول النقل</string>
+    <string name="field_outbound_proxy">الخادم الوكيل (اختياري)</string>
+    <string name="field_stun_server">خادم STUN (اختياري)</string>
+    <string name="field_sip_password">كلمة مرور SIP (مشفرة)</string>
+    <string name="btn_save_register">حفظ وفحص التسجيل</string>
+    <string name="badge_default">افتراضي</string>
+    <string name="btn_set_default">تعيين كافتراضي</string>
+    <string name="btn_register_test">فحص التسجيل</string>
+
+    <!-- Profile -->
+    <string name="profile_title">الملف الشخصي</string>
+    <string name="profile_peer_id">معرف التطبيق Peer ID</string>
+    <string name="profile_security_status">أمان التخزين المحلي</string>
+    <string name="profile_security_desc">تجزئة كلمات المرور بـ PBKDF2-HMAC-SHA256 وتشفير أسرار SIP عبر Android Keystore AES-GCM.</string>
+    <string name="btn_sign_out">تسجيل الخروج</string>
+
+    <!-- Settings -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_language">اللغة</string>
+    <string name="lang_english">English</string>
+    <string name="lang_bengali">বাংলা (البنغالية)</string>
+    <string name="lang_arabic">العربية (RTL)</string>
+    <string name="settings_calling_prefs">تفضيلات الاتصال</string>
+    <string name="settings_default_mode">وضع الاتصال المفضل</string>
+    <string name="settings_echo_cancel">إلغاء الصدى الصوتي</string>
+    <string name="settings_noise_suppress">عزل الضوضاء</string>
+    <string name="settings_proximity">مستشعر التقارب التلقائي</string>
+    <string name="settings_wifi_only">مكالمات VoIP عبر Wi-Fi فقط</string>
+    <string name="settings_permissions">الأذونات والتشخيص</string>
+    <string name="perm_mic_granted">إذن الميكروفون: ممنوح</string>
+    <string name="perm_mic_denied">إذن الميكروفون: مطلوب للصوت</string>
+    <string name="settings_about_dev">عن المطور</string>
+
+    <!-- About Developer -->
+    <string name="about_title">عن المطور</string>
+    <string name="about_dev_name">TARIQUL SHEIKH</string>
+    <string name="about_dev_role">مهندس معماري لتطبيقات أندرويد وأنظمة VoIP</string>
+    <string name="about_phases_title">خارطة الطريق والمراحل</string>
+    <string name="about_remaining_title">التكاملات البرمجية المتبقية</string>
+</resources>

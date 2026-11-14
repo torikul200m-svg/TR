@@ -1,0 +1,168 @@
+<resources>
+    <string name="app_name">TR Dial sip</string>
+    <string name="app_tagline">প্রিসিশন ভিওআইপি ও এসআইপি টেলিকমিউনিকেশন</string>
+    <string name="developer_credit">ডেভেলপার: TARIQUL SHEIKH</string>
+
+    <!-- Navigation & Common -->
+    <string name="nav_home">হোম</string>
+    <string name="nav_dial_pad">ডায়াল প্যাড</string>
+    <string name="nav_contacts">কন্টাক্টস</string>
+    <string name="nav_favorites">প্রিয়</string>
+    <string name="nav_history">কল হিস্ট্রি</string>
+    <string name="nav_settings">সেটিংস</string>
+    <string name="action_back">ফিরে যান</string>
+    <string name="action_save">সংরক্ষণ</string>
+    <string name="action_cancel">বাতিল</string>
+    <string name="action_delete">মুছুন</string>
+    <string name="action_edit">সম্পাদনা</string>
+    <string name="action_call">কল করুন</string>
+    <string name="action_close">বন্ধ করুন</string>
+    <string name="action_skip">এড়িয়ে যান</string>
+    <string name="action_next">পরবর্তী</string>
+    <string name="action_get_started">শুরু করুন</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">ইউনিফাইড VoIP এবং SIP কোর</string>
+    <string name="onboarding_desc_1">একটি প্রিমিয়াম ডার্ক ডায়ালার থেকেই অ্যাপ-টু-অ্যাপ ইন্টারনেট কল এবং SIP-টু-SIP ট্রাঙ্ক ব্যবহার করুন।</string>
+    <string name="onboarding_title_2">মডুলার কলিং আর্কিটেকচার</string>
+    <string name="onboarding_desc_2">নেটিভ PJSIP C/C++ এবং WebRTC সিগন্যালিংয়ের জন্য পরিচ্ছন্ন ইন্টারফেস, কোনো ভুয়া কলিং সিমুলেশন ছাড়াই।</string>
+    <string name="onboarding_title_3">এনক্রিপ্টেড ও বহুভাষিক</string>
+    <string name="onboarding_desc_3">সল্টেড পাসওয়ার্ড হ্যাশিং, Keystore সুরক্ষিত SIP তথ্য এবং বাংলা, ইংরেজি ও আরবি RTL সাপোর্ট।</string>
+
+    <!-- Auth: Login & Registration -->
+    <string name="login_title">স্বাগতম</string>
+    <string name="login_subtitle">আপনার SIP অ্যাকাউন্ট ও ডায়ালারে সাইন ইন করুন</string>
+    <string name="register_title">অ্যাকাউন্ট তৈরি করুন</string>
+    <string name="register_subtitle">আপনার সুরক্ষিত স্থানীয় TR Dial sip প্রোফাইল সেট আপ করুন</string>
+    <string name="field_full_name">পুরো নাম</string>
+    <string name="field_email">ইমেইল ঠিকানা</string>
+    <string name="field_extension">ফোন / এক্সটেনশন</string>
+    <string name="field_password">পাসওয়ার্ড</string>
+    <string name="field_confirm_password">পাসওয়ার্ড নিশ্চিত করুন</string>
+    <string name="btn_sign_in">সাইন ইন</string>
+    <string name="btn_create_account">অ্যাকাউন্ট তৈরি করুন</string>
+    <string name="link_no_account">নতুন ব্যবহারকারী? নিবন্ধন করুন</string>
+    <string name="link_have_account">অ্যাকাউন্ট আছে? সাইন ইন করুন</string>
+    <string name="error_invalid_email">সঠিক ইমেইল ঠিকানা লিখুন।</string>
+    <string name="error_short_password">পাসওয়ার্ড কমপক্ষে ৬ অক্ষরের হতে হবে।</string>
+    <string name="error_password_mismatch">পাসওয়ার্ড দুটি মিলছে না।</string>
+    <string name="error_required_field">এই ঘরটি পূরণ করা আবশ্যক।</string>
+    <string name="error_invalid_credentials">ইমেইল বা পাসওয়ার্ড সঠিক নয়।</string>
+    <string name="error_email_exists">এই ইমেইলে ইতিমধ্যে একটি অ্যাকাউন্ট রয়েছে।</string>
+
+    <!-- Home Dashboard -->
+    <string name="dashboard_greeting">কমান্ড সেন্টার</string>
+    <string name="status_network_online">নেটওয়ার্ক সচল</string>
+    <string name="status_network_offline">নেটওয়ার্ক বিচ্ছিন্ন</string>
+    <string name="status_sip_not_configured">SIP ইঞ্জিন: কনফিগার করা হয়নি</string>
+    <string name="status_sip_ready_accounts">%1$dটি অ্যাকাউন্ট সংরক্ষিত • স্ট্যান্ডবাই</string>
+    <string name="section_quick_dial">কুইক ডায়াল</string>
+    <string name="section_recent_calls">সাম্প্রতিক কল</string>
+    <string name="section_quick_actions">ওয়ার্কস্পেস</string>
+    <string name="card_sip_accounts">SIP অ্যাকাউন্ট</string>
+    <string name="card_profile">প্রোফাইল</string>
+    <string name="empty_recent_calls">এখনো কোনো কল লগ নেই। রাউটিং পরীক্ষা করতে ডায়াল প্যাড খুলুন।</string>
+    <string name="view_all">সব দেখুন</string>
+
+    <!-- Dial Pad -->
+    <string name="dial_pad_title">ডায়াল প্যাড</string>
+    <string name="mode_app_to_app">অ্যাপ-টু-অ্যাপ</string>
+    <string name="mode_sip_to_sip">SIP-টু-SIP</string>
+    <string name="dial_hint_sip">নম্বর বা SIP URI লিখুন</string>
+    <string name="dial_hint_app">Peer ID লিখুন</string>
+    <string name="select_sip_account">সক্রিয় SIP অ্যাকাউন্ট</string>
+    <string name="no_sip_account">কোনো SIP অ্যাকাউন্ট কনফিগার করা নেই</string>
+    <string name="configure_sip_now">SIP কনফিগার করুন</string>
+    <string name="calling_not_configured_title">কলিং সার্ভিস কনফিগার করা হয়নি</string>
+    <string name="calling_not_configured_sip">SIP-টু-SIP ইঞ্জিন বর্তমানে মডুলার স্ট্যান্ডবাইতে আছে। এই পরিবেশে নেটিভ PJSIP C/C++ লাইব্রেরি কম্পাইল করা নেই।</string>
+    <string name="calling_not_configured_app">অ্যাপ-টু-অ্যাপ WebRTC সিগন্যালিং এবং মিডিয়া ট্রান্সপোর্ট এখনো কনফিগার করা হয়নি।</string>
+    <string name="mic_permission_required">ভয়েস কলের জন্য মাইক্রোফোন অনুমতি প্রয়োজন।</string>
+    <string name="btn_grant_permission">অনুমতি দিন</string>
+    <string name="btn_preview_active_call">অ্যাক্টিভ কল UI প্রিভিউ</string>
+    <string name="btn_preview_incoming_call">ইনকামিং কল UI প্রিভিউ</string>
+
+    <!-- Contacts & Favorites -->
+    <string name="contacts_title">কন্টাক্টস</string>
+    <string name="favorites_title">প্রিয় তালিকা</string>
+    <string name="search_contacts_hint">নাম, নম্বর বা SIP URI খুঁজুন…</string>
+    <string name="add_contact">কন্টাক্ট যোগ করুন</string>
+    <string name="edit_contact">কন্টাক্ট সম্পাদনা</string>
+    <string name="field_contact_name">কন্টাক্টের নাম</string>
+    <string name="field_phone_number">ফোন নম্বর</string>
+    <string name="field_sip_uri">SIP URI (যেমন 1001@sip.domain.com)</string>
+    <string name="field_app_peer_id">অ্যাপ-টু-অ্যাপ Peer ID</string>
+    <string name="empty_contacts">কোনো কন্টাক্ট পাওয়া যায়নি। যোগ করতে + বাটনে চাপুন।</string>
+    <string name="empty_favorites">এখনো কোনো প্রিয় কন্টাক্ট নেই। তারকা আইকনে চাপ দিয়ে যোগ করুন।</string>
+
+    <!-- Call History -->
+    <string name="history_title">কল হিস্ট্রি</string>
+    <string name="filter_all">সব</string>
+    <string name="filter_missed">মিসড</string>
+    <string name="filter_sip">SIP</string>
+    <string name="filter_app">অ্যাপ</string>
+    <string name="clear_history">ইতিহাস মুছুন</string>
+    <string name="empty_history">আপনার কল লগ খালি।</string>
+
+    <!-- Incoming & Active Call Screens -->
+    <string name="incoming_call_label">ইনকামিং কল</string>
+    <string name="btn_answer">রিসিভ</string>
+    <string name="btn_reject">বাতিল</string>
+    <string name="call_preview_banner">শুধুমাত্র UI প্রিভিউ — কলিং ইঞ্জিন কনফিগার করা নেই (অডিও সক্রিয় নয়)</string>
+    <string name="call_state_standby">ইঞ্জিন স্ট্যান্ডবাই (প্রিভিউ)</string>
+    <string name="call_state_on_hold">হোল্ড করা আছে (প্রিভিউ)</string>
+    <string name="btn_mute">মিউট</string>
+    <string name="btn_speaker">স্পিকার</string>
+    <string name="btn_hold">হোল্ড</string>
+    <string name="btn_keypad">কীপ্যাড</string>
+    <string name="btn_end_call">কল শেষ</string>
+    <string name="dtmf_last_tone">সর্বশেষ DTMF: %1$s</string>
+
+    <!-- SIP Account Manager & Configuration -->
+    <string name="sip_manager_title">SIP অ্যাকাউন্ট ম্যানেজার</string>
+    <string name="sip_config_title">SIP কনফিগারেশন</string>
+    <string name="add_sip_account">SIP অ্যাকাউন্ট যোগ করুন</string>
+    <string name="empty_sip_accounts">কোনো SIP অ্যাকাউন্ট নেই। নিরাপদভাবে যুক্ত করতে + চাপুন।</string>
+    <string name="field_display_name">প্রদর্শিত নাম</string>
+    <string name="field_sip_username">SIP ইউজারনেম / এক্সটেনশন</string>
+    <string name="field_sip_domain">ডোমেইন / রেজিস্ট্রার হোস্ট</string>
+    <string name="field_sip_port">পোর্ট</string>
+    <string name="field_transport">ট্রান্সপোর্ট প্রোটোকল</string>
+    <string name="field_outbound_proxy">আউটবাউন্ড প্রক্সি (ঐচ্ছিক)</string>
+    <string name="field_stun_server">STUN সার্ভার (ঐচ্ছিক)</string>
+    <string name="field_sip_password">SIP পাসওয়ার্ড (এনক্রিপ্টেড)</string>
+    <string name="btn_save_register">সংরক্ষণ ও রেজিস্ট্রেশন যাচাই</string>
+    <string name="badge_default">ডিফল্ট</string>
+    <string name="btn_set_default">ডিফল্ট করুন</string>
+    <string name="btn_register_test">রেজিস্ট্রেশন দেখুন</string>
+
+    <!-- Profile -->
+    <string name="profile_title">ব্যবহারকারীর প্রোফাইল</string>
+    <string name="profile_peer_id">অ্যাপ-টু-অ্যাপ Peer ID</string>
+    <string name="profile_security_status">স্থানীয় স্টোরেজ নিরাপত্তা</string>
+    <string name="profile_security_desc">পাসওয়ার্ড PBKDF2-HMAC-SHA256 দিয়ে হ্যাশ করা এবং SIP সিক্রেট Android Keystore AES-GCM দিয়ে এনক্রিপ্টেড।</string>
+    <string name="btn_sign_out">সাইন আউট</string>
+
+    <!-- Settings -->
+    <string name="settings_title">সেটিংস</string>
+    <string name="settings_language">ভাষা</string>
+    <string name="lang_english">English</string>
+    <string name="lang_bengali">বাংলা (Bengali)</string>
+    <string name="lang_arabic">العربية (Arabic RTL)</string>
+    <string name="settings_calling_prefs">কলিং পছন্দসমূহ</string>
+    <string name="settings_default_mode">পছন্দের কলিং মোড</string>
+    <string name="settings_echo_cancel">ইকো ক্যান্সেলেশন</string>
+    <string name="settings_noise_suppress">নয়েজ সাপ্রেশন</string>
+    <string name="settings_proximity">অটো স্পিকার প্রক্সিমিটি</string>
+    <string name="settings_wifi_only">শুধুমাত্র Wi-Fi কল</string>
+    <string name="settings_permissions">অনুমতি ও ডায়াগনস্টিকস</string>
+    <string name="perm_mic_granted">মাইক্রোফোন অনুমতি: অনুমোদিত</string>
+    <string name="perm_mic_denied">মাইক্রোফোন অনুমতি: ভয়েস কলের জন্য প্রয়োজন</string>
+    <string name="settings_about_dev">ডেভেলপার সম্পর্কে</string>
+
+    <!-- About Developer -->
+    <string name="about_title">ডেভেলপার সম্পর্কে</string>
+    <string name="about_dev_name">TARIQUL SHEIKH</string>
+    <string name="about_dev_role">লিড অ্যান্ড্রয়েড ও VoIP সিস্টেম আর্কিটেক্ট</string>
+    <string name="about_phases_title">আর্কিটেকচার ও ইন্টিগ্রেশন রোডম্যাপ</string>
+    <string name="about_remaining_title">বাকি নেটিভ ইন্টিগ্রেশন</string>
+</resources>

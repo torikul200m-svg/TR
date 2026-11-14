@@ -1,0 +1,6 @@
+{
+  "name": "TR Dial sip",
+  "description": "Premium dark telecommunications and VoIP/SIP dialer app with modular App-to-App and SIP-to-SIP calling architecture.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
